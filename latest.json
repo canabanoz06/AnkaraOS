@@ -1,0 +1,42 @@
+{
+  "name": "AnkaraOS",
+  "codename": "Kale",
+  "version": "1.0.18",
+  "date": "2026-10-28",
+  "key_fingerprint": "D5FECBD6330A7272030AEC0AB361BC62E6D61226",
+  "update": {
+    "file": "ankaraos-update-1.0.18.tar.zst",
+    "sha256": "d03f065e507bacb7ce81adfafed68bdc7097e879a59a6523c0bac9fd64f4d15d",
+    "size": 40367367
+  },
+  "iso": [
+    {
+      "file": "ankaraos-1.0.18-kale-x86_64.iso",
+      "sha256": "e6baac38813409d4d7163cba9d9954d366dad0dbd0dba7f8f3d10d978eb17329",
+      "size": 11733630976,
+      "edition": "full",
+      "url": "https://archive.org/download/ankaraos-1.0.18/ankaraos-1.0.18-kale-x86_64.iso"
+    },
+    {
+      "file": "ankaraos-1.0.18-kale-hafif-x86_64.iso",
+      "sha256": "21df1456d3ae05603c6a8857228763b3c02fab1a0bb71f36d5d7f0c18aff9662",
+      "size": 7142834176,
+      "edition": "lite",
+      "url": "https://archive.org/download/ankaraos-1.0.18/ankaraos-1.0.18-kale-hafif-x86_64.iso"
+    }
+  ],
+  "notes": {
+    "tr": [
+      "1.0.13'ten eski bir sürümden yükseltilen sistemlerde rEFInd açılış menüsü Merkez > Güvenlik'ten açılınca \"rEFInd paketi yok\" hatası veriyordu; güncelleme artık eksik rEFInd paketini kurar.",
+      "Türkçe yazım denetimi: LibreOffice'te ve KDE uygulamalarında yanlış yazılan Türkçe kelimelerin altı çizilir.",
+      "Uzaktan yardım: \"Masaüstü Paylaşımı\" ile bir yakınınız bilgisayarınıza bağlanıp yardım edebilir (siz izin verince), \"Uzak Masaüstü\" ile siz başkasına bağlanabilirsiniz.",
+      "KDE Bölüm Yöneticisi, parmak izi okuyucu desteği (Sistem Ayarları > Kullanıcılar) ve WireGuard VPN araçları eklendi."
+    ],
+    "en": [
+      "On systems upgraded from a release older than 1.0.13, turning on the rEFInd boot menu in Center > Security failed with \"rEFInd package missing\"; the update now installs the missing rEFInd package.",
+      "Turkish spell checking: misspelled Turkish words are underlined in LibreOffice and KDE applications.",
+      "Remote help: with \"Desktop Sharing\" someone you trust can connect and help (once you allow it); with \"Remote Desktop\" you can connect to someone else.",
+      "Added KDE Partition Manager, fingerprint reader support (System Settings > Users) and WireGuard VPN tools."
+    ]
+  }
+}
